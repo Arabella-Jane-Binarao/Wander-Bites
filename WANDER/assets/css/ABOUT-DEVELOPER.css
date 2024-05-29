@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  
+
+
+.ABimage img {
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+  padding: 0;
+
+}
+  .about-developer {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+  }
+
+.about-developer .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #ff7200;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-developer .text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-developer .image {
+    flex: 0 0 300px;
+    margin-left: 20px;
+   
+}
+
+.about-developer .image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.about-developer h1 {
+    position: absolute;
+    top: 20%;
+    color: #2c3e50;
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+
+.about-developer .description {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.buttons1 {
+    position: absolute;
+    top: 74%;
+    display: flex;
+    gap: 10px;
+}
+
+.btn1 {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.SocMed {
+    background-color: #003366;
+}
+
+.github {
+    background-color: #ce7500;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+
+  
+footer {
+    position: absolute;
+    background-color: rgb(0, 33, 46);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    bottom: 05;
+    top: 95%;
+    width: 100%;
+    
+  }

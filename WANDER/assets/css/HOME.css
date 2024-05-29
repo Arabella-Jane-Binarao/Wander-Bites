@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  ::selection{
+    color: #000;
+    background: #fff;
+  }
+  nav{
+    position: fixed;
+    width: 1000%;
+    background: rgb(0, 33, 46);
+    width: 100%;
+    padding: 5px 0;
+    top: 0%;
+    z-index: 999;
+    
+  }
+  
+  div.bg-color {
+      background-color: rgb(1, 1, 3);
+      z-index: -1;
+  }
+  
+  nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .icon img{
+      width: 100px;
+      float: left;
+      height: 90px;
+      padding: 4px;
+  }
+  
+  .menu ul{
+    display: inline-flex;
+  }
+  .menu ul li{
+    list-style: none;
+    margin-left: 7px;
+  }
+  .menu ul li:first-child{
+    margin-left: 0px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .menu ul li a:hover{
+    color: #ff7200;
+  }
+  .center{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .center .title{
+    color: #ff7200;
+    font-size: 100px;
+    font-weight: 1000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  .center .sub_title{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+
+  .background-gif img{
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    height: 100vh;
+    min-height: 100%;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+  }
+
+  .buttons {
+    position: absolute;
+    top: 95%;
+    left: 40%;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.SocMed {
+  background-color: #9f0062;
+  border: 1px solid white;
+ 
+   
+}
+
+.fb {
+  background-color: #003366;
+  border: 1px solid white;
+    
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+  
